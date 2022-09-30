@@ -1,0 +1,34 @@
+{
+  "name": "fafomi-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/server": "^11.10.0",
+    "@mantine/core": "^5.4.2",
+    "@mantine/form": "^5.4.2",
+    "@mantine/hooks": "^5.4.2",
+    "@mantine/next": "^5.4.2",
+    "@tabler/icons": "^1.101.0",
+    "i18next": "^21.9.2",
+    "next": "12.3.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-i18next": "^11.18.6",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@types/node": "18.7.23",
+    "@types/react": "18.0.21",
+    "@types/react-dom": "18.0.6",
+    "eslint": "8.24.0",
+    "eslint-config-next": "12.3.1",
+    "typescript": "4.8.4"
+  }
+}

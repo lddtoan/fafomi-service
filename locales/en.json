@@ -1,0 +1,15 @@
+{
+  "common": {
+    "title": "Fafomi"
+  },
+  "page": {
+    "login": {
+      "login": "Login",
+      "email": "Email",
+      "password": "Password",
+      "forgotPassword": "Forgot password?",
+      "required": "This field is required.",
+      "emailInvalid": "Email is invalid."
+    }
+  }
+}
