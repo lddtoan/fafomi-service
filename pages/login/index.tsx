@@ -15,6 +15,7 @@ import { PageWrapper } from "components/page-wrapper";
 import Link from "next/link";
 import { useCallback, useMemo } from "react";
 import { useTranslation } from "react-i18next";
+import { login } from "services/api/user";
 import { routes } from "shared/routes";
 import { LoginForm } from "shared/types/forms";
 import * as yup from "yup";
@@ -40,8 +41,8 @@ const Login = () => {
     },
   });
 
-  const handleSubmit = useCallback((values: LoginForm) => {
-    console.log(values);
+  const handleSubmit = useCallback(async (values: LoginForm) => {
+    await login(values);
   }, []);
 
   return (
